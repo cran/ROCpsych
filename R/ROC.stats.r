@@ -42,8 +42,7 @@
 #'  * NLR, negative likelihood ratio.\cr
 #'  * DOR, Diagnostic odds ratio.}
 #' @import stats
-#' @import pROC
-#' @import reportROC
+#' @importFrom reportROC reportROC
 #' @examples  
 #' #read the example data
 #' data(ROC.data.ex)

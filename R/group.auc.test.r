@@ -54,8 +54,8 @@
 #'  * DOR, Diagnostic odds ratio.}
 #' \item{AUC.test}{Results of the AUC comparison for each pair of the consecutive categories.}
 #' @import stats
-#' @import pROC
-#' @import reportROC
+#' @importFrom pROC roc roc.test
+#' @importFrom reportROC reportROC
 #' @examples  
 #' #read the example data
 #' data(ROC.data.ex)

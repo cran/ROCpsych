@@ -20,7 +20,7 @@ A data frame with the original data and newly created variables.
 \description{
 This function collapses group memberships or categories of the ordinal variable
  into binary variables (or indicators) for each category and appends the new variables to the end of the original data.
- For each new variable, 0 repsrents participants at or below the selected category and 1 reprents 
+ For each new variable, 0 represents participants at or below the selected category and 1 represents 
  participants above the selected category. For example, age.40 = 0 means participants with age at or below 40, whereas
  age.40 = 1 indicates participants with age beyond 40.
 }

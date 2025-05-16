@@ -3,7 +3,7 @@
 #' @title Function to create new variables from the ordinal variable for further analysis 
 #' @description This function collapses group memberships or categories of the ordinal variable
 #'  into binary variables (or indicators) for each category and appends the new variables to the end of the original data.
-#'  For each new variable, 0 repsrents participants at or below the selected category and 1 reprents 
+#'  For each new variable, 0 represents participants at or below the selected category and 1 represents 
 #'  participants above the selected category. For example, age.40 = 0 means participants with age at or below 40, whereas
 #'  age.40 = 1 indicates participants with age beyond 40.
 #' @param data A data frame or matrix that contains the ordinal variable.
